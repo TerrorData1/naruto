@@ -668,9 +668,29 @@ transition: all 0.5s;
          
          
       }
-      
+     .copyright a{
+    
+     font-family: 'lato', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #E14A4A;
+    background-color:#212832;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+     list-style: none;
+     text-decoration: none;
+     padding-top: 10px;
+    
+  
+  }
+   .copyright a:hover::after {
+    width: 100%;
+    transition: width 0.3s linear;
+    box-shadow: #FC0 1px 0 10px;
+} 
 
-}
+
 /* @media (min-width:280px) {
 
     .navbar .logo {
