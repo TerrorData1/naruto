@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap carrousel-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+    <!--bootstrap card slider code-->
+        <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
+        <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+        <style></style>
+        <script type='text/javascript' src='import { Carousel, initMDB } from "mdb-ui-kit";
+
+        initMDB({ Carousel });'></script>
+        <script type='text/javascript'
+            src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+        <script type='text/javascript'
+            src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+            <style>
+                a {
+                    color: #E14A4A;
+                }
+    
+                a:hover {
+                    color: #D9C57B;
+                }
+                ol,ul {
+      padding-left: 0rem;
+                }
+            </style>
+
+
+        <title>CONTACT</title>
+</head>
+
+<body>
+    <header>
+        <!--<div class="hero">
+            <video autoplay loop muted plays-inline class="back-video">
+                <source src="image/contact.mp4" type="video/mp4">
+            </video>-->
+            <div class="headerTop">
+                <nav class="navbar">
+                    <div class="logo"><a href="http://127.0.0.1:5500/index.html#"><img src="image/logo.png"
+                        alt="Naruto Shop"></a></div>
+                    <div class="nav-links">
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-magnifying-glass fa-lg"></i></a></li>
+                            <li><a href="http://127.0.0.1:5500/index.html#">ACCUEIL</a></li>
+                            <li><a href="#">SHOP</a></li>
+                            <li><a href="#">BLOG</a></li>
+                            <li><a href="http://127.0.0.1:5500/contact.html">CONTACT</a></li>
+                            <li><a href="#">LOGIN</a></li>
+                            <li><a href="#"><i class="fa-solid fa-basket-shopping fa-lg"></i></a></li>
+                        </ul>
+                    </div>
+                    <img src="image/menu-btn.png" alt="menu hamburger" class="menu-hamburger">                   
+                    </nav>
+                </div>
+    </header>
+
+    <section>
+        <div class="contenair-contact">
+            <div class="box-contact">
+                <h2>Formulaire de contact</h2>
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span class="text">Nom</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span class="text">Prénom</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span class="text">Email</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span class="text">Téléphone</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox textarea">
+                            <textarea required="required"></textarea>
+                            <span class="text">Ton Message...</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row100">
+                    <div class="col">
+                        <input type="submit" value="envoyer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <footer>
+        <div class="menu-list">
+            <ul>
+                <li><a href="#">NARUTOSHOP©Copyright</a></li>
+                <li><a href="tel:0615419750"><i class="fa-solid fa-phone fa-xl"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-facebook fa-xl"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-tiktok fa-xl"></i></a></li>
+            </ul>
+        </div>
+
+
+    </footer>
+    <script>
+        const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".nav-links")
+
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+</script>
+</body>
+
+</html>
